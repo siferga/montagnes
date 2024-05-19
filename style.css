@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-image: url("img/fd-montagne-e4ecfa.jpg");
+    background-repeat: no-repeat;
+    background-color: #e4ecfa;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2, h3 , h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+a:link{
+	color:orange;
+	text-decoration:none;
+}
+a:visited{
+	color:tomato;
+}
+a:hover{
+	color:#1c50bf;
+}
+.layout {
+    width: 90%;
+    max-width:960px;
+    margin-inline:auto;
+}
+/* *********** HEADER* **************/
+header {
+    text-align: center;
+    height: auto;
+    padding-bottom: 14%;
+    color: white;
+}
+header h1 {
+    text-shadow: 4px 4px 6px rgb( 0,0,0,0.263);
+    font-size: 2rem;
+}
+
+
+/*Réinitialiser une liste dont la finalité est un menu*/
+header nav ul,header nav li{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+header ul{
+	display:flex;
+	justify-content: center;
+}
+header nav a:link,header nav a:visited{
+	background-color: #1c50bf;
+	color:white;
+	border-radius: 15px;
+	margin:20px;
+	padding:10px;
+}
+header nav a:hover{
+	background-color: orange;
+}
+
+
+/* ******** MAIN *****************/
+section {
+    background-color: aliceblue;
+    padding: 2em;
+    margin-bottom: 2em;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 0 90px 0 0;
+    overflow: auto;
+    /*overflow: hidden;*/
+}
+section h2{
+    background-image: url("img/puce-h1.png");
+    background-repeat: no-repeat;
+    padding-left: 120px;
+    text-transform: uppercase;
+    color: gray;
+} 
+section .sommaire a:visited{
+    color: orangered;
+ }
+section .sommaire a:visited{
+     color: green;
+  }
+  section .sommaire a:hover{
+    color: green;
+ }
+ 
+ .principal a{
+     background-color: blue;
+ }
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+  /*section#paysage {
+   opacity: 0.5;*/
+   /* transition:;
+}*/
+
+section figure{
+    border: 3px solid grey;
+    background-color:silver;
+	width:30%;
+	padding-bottom: 7px;
+    float: right;
+	margin:0 0 15px 0;
+	
+}
+section figure img {
+    width: 100%;
+}
+section figure caption {
+    padding: 5em;
+    text-transform: uppercase;
+    color: black;
+    font-size: 8em; 
+}
+section#massifs{
+    background-color: rgb(101, 162, 248);
+    color: white;
+} 
+section#massifs h2{
+    color: black;
+}
